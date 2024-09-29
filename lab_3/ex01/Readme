@@ -1,0 +1,4 @@
+Запуск в первом терминале
+--ros2 run service_full_name service
+Запуск во втором терминале 
+--ros2 run service_full_name client Иванов Иван Иванович
