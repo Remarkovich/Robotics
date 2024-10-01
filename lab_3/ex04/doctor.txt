@@ -1,0 +1,94 @@
+
+   NETWORK CONFIGURATION
+inet         : 127.0.0.1
+inet4        : ['127.0.0.1']
+inet6        : ['::1']
+netmask      : 255.0.0.0
+device       : lo
+flags        : 73<LOOPBACK,UP,RUNNING>
+mtu          : 65536
+inet         : 192.168.1.100
+inet4        : ['192.168.1.100']
+ether        : 14:13:33:02:d3:b9
+inet6        : ['fe80::b637:c980:4a27:cb70%wlp2s0']
+netmask      : 255.255.255.0
+device       : wlp2s0
+flags        : 4163<BROADCAST,UP,RUNNING,MULTICAST>
+mtu          : 1500
+broadcast    : 192.168.1.255
+inet         : 172.19.0.1
+inet4        : ['172.19.0.1']
+ether        : 02:42:b8:30:fa:17
+netmask      : 255.255.0.0
+device       : br-44140eebf229
+flags        : 4099<BROADCAST,UP,MULTICAST>
+mtu          : 1500
+broadcast    : 172.19.255.255
+inet         : 172.17.0.1
+inet4        : ['172.17.0.1']
+ether        : 02:42:f2:49:24:4a
+netmask      : 255.255.0.0
+device       : docker0
+flags        : 4099<BROADCAST,UP,MULTICAST>
+mtu          : 1500
+broadcast    : 172.17.255.255
+inet         : 172.18.0.1
+inet4        : ['172.18.0.1']
+ether        : 02:42:97:cc:69:b0
+netmask      : 255.255.0.0
+device       : br-2823255f1fa3
+flags        : 4099<BROADCAST,UP,MULTICAST>
+mtu          : 1500
+broadcast    : 172.18.255.255
+inet         : 192.168.49.1
+inet4        : ['192.168.49.1']
+ether        : 02:42:8d:b5:93:4c
+netmask      : 255.255.255.0
+device       : br-2f18fb8a8b92
+flags        : 4099<BROADCAST,UP,MULTICAST>
+mtu          : 1500
+broadcast    : 192.168.49.255
+inet         : 172.20.0.1
+inet4        : ['172.20.0.1']
+ether        : 02:42:6f:ac:00:5c
+inet6        : ['fe80::42:6fff:feac:5c%br-373fc1e0b307']
+netmask      : 255.255.0.0
+device       : br-373fc1e0b307
+flags        : 4163<BROADCAST,UP,RUNNING,MULTICAST>
+mtu          : 1500
+broadcast    : 172.20.255.255
+inet         : 10.8.33.105
+inet4        : ['10.8.33.105']
+inet6        : ['fd58:baa6:dead::1', 'fe80::abb0:5a20:84d6:72da%amn0']
+netmask      : 255.255.255.255
+device       : amn0
+flags        : 469<DEBUG,UP,PROMISC,PTP,NOARP,RUNNING>
+mtu          : 1420
+ether        : 5a:b1:6a:b3:40:8a
+inet6        : ['fe80::58b1:6aff:feb3:408a%veth48025d0']
+device       : veth48025d0
+flags        : 4163<BROADCAST,UP,RUNNING,MULTICAST>
+mtu          : 1500
+
+   PLATFORM INFORMATION
+system           : Linux
+platform info    : Linux-6.8.0-45-generic-x86_64-with-glibc2.35
+release          : 6.8.0-45-generic
+processor        : x86_64
+
+   QOS COMPATIBILITY LIST
+compatibility status    : No publisher/subscriber pairs found
+
+   RMW MIDDLEWARE
+middleware name    : rmw_fastrtps_cpp
+
+   ROS 2 INFORMATION
+distribution name      : humble
+distribution type      : ros2
+distribution status    : active
+release platforms      : {'rhel': ['8'], 'ubuntu': ['jammy']}
+
+   TOPIC LIST
+topic               : none
+publisher count     : 0
+subscriber count    : 0
