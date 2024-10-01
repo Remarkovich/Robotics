@@ -1,0 +1,6 @@
+Запуск черепахи 
+--  ros2 run turtlesim turtlesim_node
+Запуск сервера
+-- ros2 run python_turtle_commands server
+Запуск клиента
+-- ros2 run python_turtle_commands client
