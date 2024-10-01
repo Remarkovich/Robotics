@@ -1,0 +1,6 @@
+Запуск черепахи
+-- ros2 run turtlesim turtlesim_node
+Запуск bag файла
+--  cd ~/ros2_ws/bag_files
+--  ros2 bag play turtle_cmd_vel.mcap 
+--  ros2 bag play turtle_cmd_vel.mcap --rate 2.0
