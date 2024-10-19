@@ -1,0 +1,6 @@
+терминал 1: ros2 launch turtle_tf2_py turtle_tf2_demo.launch.py - запуск лаунча.
+терминал 2: ros2 run turtlesim turtle_teleop_key - запуск узла управления.
+терминал 3: ros2 run tf2_ros tf2_echo turtle2 turtle1 > output.txt - запуск прослушки и записывание в output.txt
+
+
+
