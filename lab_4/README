@@ -1,4 +1,6 @@
 -- task 2 and task 3 description:
+* Узел turtle_tf2_broadcaster берет данные о положении черепашки (например, черепашки turtle1) из симуляции turtlesim, 
+преобразует их в трансформацию и отправляет её в систему TF2. 
 * TransformStamped - встроенный метод в библиотеку geometry_msgs.msg, представляющий трансформацию между двумя системами координат
-(в данном случае между "world" и "turtle1"), ("turtle1" и "carrot"), ("turtle1" и "turtle2").
+(в данном случае между "world" и "turtle1") либо ("turtle1" и "carrot") либо ("turtle1" и "turtle2").
 *
