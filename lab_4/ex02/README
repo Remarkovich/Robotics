@@ -1,0 +1,2 @@
+colcon build --packages-select my_carrot -- сборка пакета
+ros2 launch my_carrot dynamic.launch.py -- запупск исполняемого launch файла 
