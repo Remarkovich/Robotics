@@ -1,0 +1,3 @@
+-- task 2 and task 3 description:
+TransformStamped - встроенный метод в библиотеку geometry_msgs.msg, представляющий трансформацию между двумя системами координат
+(в данном случае между "world" и "turtle1"), ("turtle1" и "carrot"), ("turtle1" и "turtle2").
