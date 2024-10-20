@@ -1,0 +1,4 @@
+терминал 1: ros2 launch time_travel turtle_tf2_demo.launch.py
+терминал 2: ros2 launch time_travel turtle_tf2_demo.launch.py
+
+
