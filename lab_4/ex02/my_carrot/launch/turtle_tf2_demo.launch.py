@@ -37,7 +37,7 @@ def generate_launch_description():
             executable='turtle_tf2_listener',
             name='listener',
             parameters=[
-                {'target_frame': LaunchConfiguration('target_frame')}
+                {'target_frame': LaunchConfiguration('target_frame')} #прослушиваем carrot1
             ]
         ),
     ])
